@@ -18,7 +18,7 @@ The repository is organized as follows:
 * `/H7N9 Reordenamiento Triple/`: Contains the main case study analysis for H7N9, including specific scripts, results, genomic data references, and the main interactive visualization notebook.
 * `/XBB.1 SarsCov2/`: Contains the analysis of recombination in SARS-CoV-2.
 * `README.md`: This file.
-* `tesisactualizada-JaimeSalvadorLopez.pdf`: (Optional: Include if you add the PDF to the repo) The full thesis document.
+* `Identificación de recombinación en virus utilizando Análisis Topológico de datos.pdf`: The full thesis document.
 
 ---
 
@@ -28,7 +28,7 @@ El repositorio está organizado de la siguiente manera:
 * `/H7N9 Reordenamiento Triple/`: Contiene el análisis del caso de estudio principal para H7N9, incluyendo scripts específicos, resultados, referencias de datos genómicos y el notebook principal de visualización interactiva.
 * `/XBB.1 SarsCov2/`: Contiene el análisis de recombinación en SARS-CoV-2.
 * `README.md`: Este archivo.
-* `tesisactualizada-JaimeSalvadorLopez.pdf`: (Opcional: Incluir si agregas el PDF al repo) El documento completo de la tesis.
+* `Identificación de recombinación en virus utilizando Análisis Topológico de datos.pdf`: El documento completo de la tesis.
 
 ---
 
