@@ -12,6 +12,24 @@ El objetivo principal de este trabajo es identificar eventos de transferencia ge
 
 ---
 
+## Interactive 3D Visualization / Visualización Interactiva 3D
+
+An online interactive version of the TDA process visualization is available here:
+**[https://tda-reordenamiento-triple-h7n9.streamlit.app/](https://tda-reordenamiento-triple-h7n9.streamlit.app/)**
+
+This tool implements a 3D visualization of simplicial complexes derived from genetic distance matrices of viral sequences. It replicates the validation experiment for the H7N9 triple reassortment (Section 5.1.1), where a distance matrix of six concatenated sequences reveals a 1-hole and a 2-hole, indicative of reassortment among H9N2, H7N9, and H7N3 strains. You can adjust the filtration value to explore how topological features evolve, reflecting the formation and collapse of cycles and cavities that signal evolutionary events.
+
+---
+
+Una versión interactiva en línea de la visualización del proceso de TDA se encuentra disponible aquí:
+**[https://tda-reordenamiento-triple-h7n9.streamlit.app/](https://tda-reordenamiento-triple-h7n9.streamlit.app/)**
+
+Esta herramienta implementa una visualización 3D de complejos simpliciales derivados de matrices de distancia genética de secuencias virales. Replica el experimento de validación para el reordenamiento triple de H7N9 (Sección 5.1.1), donde una matriz de distancia de seis secuencias concatenadas revela un hueco de dimensión 1 y un hueco de dimensión 2, indicativos de reordenamiento entre las cepas H9N2, H7N9 y H7N3. Puedes ajustar el valor de filtración para explorar cómo evolucionan las características topológicas, reflejando la formación y el colapso de ciclos y cavidades que señalan eventos evolutivos.
+
+---
+
+## Repository Structure / Estructura del Repositorio
+
 The repository is organized as follows:
 
 * `/Experimentos de validacion/`: Contains validation experiments, including negative controls, sample size variation tests, and controlled simulations.
@@ -32,6 +50,8 @@ El repositorio está organizado de la siguiente manera:
 
 ---
 
+## Usage / Uso
+
 Navigate to the specific experiment directories (e.g., `/H7N9 Reordenamiento Triple/Visualizacion/`) to find Jupyter notebooks or scripts. The notebooks, especially the main visualization notebook for H7N9, provide examples of how the analysis pipeline is executed, from data loading and distance matrix calculation (using Hamming distance, ignoring gaps and 'N's) to persistent homology computation and visualization (persistence diagrams, barcodes, heatmaps, 3D simplicial complexes).
 
 Data was sourced from NCBI Virus Database and GISAID. Due to data sharing policies (especially for GISAID), raw sequence data may not be included directly in this repository. Please refer to the accession numbers or identifiers provided in the thesis or code to retrieve the data from the original sources. Sequence alignment was performed using tools like Clustal Omega and Nextclade.
@@ -44,6 +64,8 @@ Los datos se obtuvieron de NCBI Virus Database y GISAID. Debido a las políticas
 
 ---
 
+## Citation / Cita
+
 If you use the code or findings from this repository in your work, please cite the original thesis:
 
 López Viveros, Jaime Salvador. (2025). *Identificación de Recombinación en Virus Utilizando Análisis Topológico de Datos*. Master's Thesis, Posgrado Conjunto en Ciencias Matemáticas UNAM-UMSNH, Morelia, Michoacán.
@@ -53,6 +75,3 @@ López Viveros, Jaime Salvador. (2025). *Identificación de Recombinación en Vi
 Si utilizas el código o los hallazgos de este repositorio en tu trabajo, por favor cita la tesis original:
 
 López Viveros, Jaime Salvador. (2025). *Identificación de Recombinación en Virus Utilizando Análisis Topológico de Datos*. Tesis de Maestría, Posgrado Conjunto en Ciencias Matemáticas UNAM-UMSNH, Morelia, Michoacán.
-
----
-
