@@ -15,14 +15,14 @@ El objetivo principal de este trabajo es identificar eventos de transferencia ge
 ## Interactive 3D Visualization / Visualización Interactiva 3D
 
 An online interactive version of the TDA process visualization is available here:
-**[https://tda-reordenamiento-triple-h7n9.streamlit.app/](https://tda-reordenamiento-triple-h7n9.streamlit.app/)**
+https://tda-reordenamiento-triple-h7n9.streamlit.app/
 
 This tool implements a 3D visualization of simplicial complexes derived from genetic distance matrices of viral sequences. It replicates the validation experiment for the H7N9 triple reassortment (Section 5.1.1), where a distance matrix of six concatenated sequences reveals a 1-hole and a 2-hole, indicative of reassortment among H9N2, H7N9, and H7N3 strains. You can adjust the filtration value to explore how topological features evolve, reflecting the formation and collapse of cycles and cavities that signal evolutionary events.
 
 ---
 
 Una versión interactiva en línea de la visualización del proceso de TDA se encuentra disponible aquí:
-**[https://tda-reordenamiento-triple-h7n9.streamlit.app/](https://tda-reordenamiento-triple-h7n9.streamlit.app/)**
+https://tda-reordenamiento-triple-h7n9.streamlit.app/
 
 Esta herramienta implementa una visualización 3D de complejos simpliciales derivados de matrices de distancia genética de secuencias virales. Replica el experimento de validación para el reordenamiento triple de H7N9 (Sección 5.1.1), donde una matriz de distancia de seis secuencias concatenadas revela un hueco de dimensión 1 y un hueco de dimensión 2, indicativos de reordenamiento entre las cepas H9N2, H7N9 y H7N3. Puedes ajustar el valor de filtración para explorar cómo evolucionan las características topológicas, reflejando la formación y el colapso de ciclos y cavidades que señalan eventos evolutivos.
 
